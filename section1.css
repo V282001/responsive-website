@@ -1,0 +1,279 @@
+.section1 {
+    width: 100vw;
+    height: 70vh;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 1.4fr 0.9fr 7fr;
+    /* row-gap: 2px; */
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Quicksand', sans-serif;
+}
+
+.section1 .item {
+    width: 100%;
+    background-color: var(--blackshade1);
+}
+
+/* item1 styling */
+.section1 .item1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1 .item1 ul {
+    font-size: 1.2em;
+    /* background-color: aqua; */
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.section1 .item1 .logo {
+    justify-content: flex-start;
+    font-size: 1.4rem;
+    margin-left: 30px;
+}
+
+.section1 .item1 ul li{
+    list-style: none;
+    margin: 0 1.5em 0 1.5em;
+    
+}
+.section1 .item1 ul .contact{
+    display:flex;
+    justify-content: center;
+    gap: 8px;
+}
+.section1 .item1 ul .contact img{
+    width: 100%;
+    height: 100%;
+    margin-top: 4px;
+}
+
+.section1 .item1 input[type="text"] {
+    height: 30px;
+    border: none;
+    border-radius: 100vw;
+    background-color: rgba(128, 128, 128, 0.371);
+    padding-left: 15px;
+}
+
+.section1 .item1 input[type="text"]::placeholder {
+    font-size: 1.em;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.section1 .item1 #lang {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+
+.section1 .item1 input[type="checkbox"] {
+    border-radius: 50%;
+}
+
+.section1 .item1 .checkbox {
+    display: flex;
+    text-align: center;
+    height: 30px;
+    width: 155px;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: lighter;
+    border-radius: 100vw;
+    padding: 5px;
+    background-color: var(--boxcolor);
+}
+.section1 .item1 .checkbox p{
+    font-size: 0.8rem;
+    
+}
+/* item2 styling */
+.section1 .item2 {
+    background-color: var(--boxcolor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 .item2 ul {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.section1 .item2 ul li {
+    list-style: none;
+    height: 90%;
+    
+    position: relative;
+    margin: 0 1.7rem 0 1.7rem;
+}
+
+.section1 .item2 ul li .options {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+    border-radius: 6px 6px 0 0;
+    transition: all 500ms ease-in-out;
+
+}
+
+.section1 .item2 ul li .options:hover {
+    background-color: white;
+    color: var(--boxcolor);
+}
+
+/* item3 styling */
+.section1 .item3 {
+    /* background-image:-webkit-linear-gradient(right,rgba(255, 0, 0, 0.918),rgb(255, 255, 255)) url("images/20221219_145505.jpg") ; */
+    background-image: url("images/Application Engineering 1.png");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    /* background-size: cover; */
+    background-position: right center;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+.section1 .item3 .gradient {
+    height: 100%;
+    width: 100%;
+    background-image: -webkit-linear-gradient(220deg, rgba(218, 41, 28, 0) 0%, #140201 51.94%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+
+}
+
+
+.section1 .item3 ul {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 1rem;
+
+}
+.section1 .item3 ul li::before{
+    content: "\2022";
+    color:var(--boxcolor);
+    width: 2em;
+    margin-right: 1em;
+
+}
+.section1 .item3 ul li {
+    list-style: none;
+}
+
+.section1 .item3 .gradient h1 {
+    font-size: 3rem;
+}
+@media screen and (max-width:1350px){
+    .section1 {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+        display: grid;
+        grid-template-rows: 3.5fr 0.9fr 7fr;
+        /* row-gap: 2px; */
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-family: 'Montserrat', sans-serif;
+                font-family: 'Open Sans', sans-serif;
+                font-family: 'Quicksand', sans-serif;
+    }
+    .section1 .item1 {
+        display: flex;
+        justify-content:space-around;
+        gap: 10px;
+        align-items:center;
+        flex-direction: column;
+    }
+    .section1 .item3 {
+        /* background-image:-webkit-linear-gradient(right,rgba(255, 0, 0, 0.918),rgb(255, 255, 255)) url("images/20221219_145505.jpg") ; */
+        background-image: url("images/Application Engineering 1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center;
+        position: relative;
+        color: rgb(255, 255, 255);
+    }
+    
+    
+    .section1 .item1 ul {
+        font-size: 1.1em;
+        /* background-color: aqua; */
+        margin-bottom: 10px;
+        width: 30%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        gap: 10px;
+        align-items: center;
+        /* margin-right: 20px; */
+    }
+    
+    .section1 .item1 .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.4rem;
+        text-align: center;
+        margin-left: 0;
+        /* background-color: aqua; */
+    }
+    .section1 .item2 {
+        background-color: var(--boxcolor);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section1 .item2 ul {
+        /* background-color: aqua; */
+        width: 90%;
+        margin: 5px;
+        flex-direction: column;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+}
+@media screen and (max-width:1009px){
+    .section1 .item3 ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 1rem;
+    
+    }
+}
+@media screen and (max-width:300px){
+    .section1 .item3 .gradient h1 {
+        font-size: 2rem;
+    }
+    .section1 .item3 .gradient {
+        
+        padding-left: 5%;
+    
+    }
+}

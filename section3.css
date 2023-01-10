@@ -1,0 +1,243 @@
+.section3 {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--blackshade2);
+    color: white;
+}
+
+.section3 .application {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    padding: 2% 0;
+}
+
+.section3 .list1 {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    gap: 11rem;
+    font-size: 15px;
+
+}
+
+.section3 .list1 ul {
+    width: 30%;
+}
+
+.section3 .list1 ul li {
+    margin: 5px 0;
+    list-style: none;
+}
+
+.section3 .list1 ul li::before {
+    content: "\2022";
+    color: var(--boxcolor);
+    width: 2em;
+    margin-right: 1em;
+}
+
+.section3 hr {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.section3 .list2 {
+    display: flex;
+    width: 80%;
+    height: 40%;
+    margin: auto;
+    justify-content: space-between;
+    gap: 11rem;
+    font-size: 15px;
+}
+
+.section3 .list2 h1 {
+    font-weight: lighter;
+    margin: 5% 0;
+}
+
+.section3 .list2 ul li {
+    margin: 5px 0;
+    list-style: none;
+}
+
+.section3 .list2 ul li::before {
+    content: "\2022";
+    color: var(--boxcolor);
+    width: 2em;
+    margin-right: 1em;
+}
+
+.section3 .list2 ul {
+    width: 30%;
+}
+
+.section3 .copyright {
+    height: 8%;
+    width: 100vw;
+}
+
+.section3 .copyright p {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    margin: auto;
+}
+
+.section3 .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blackshade1);
+}
+
+.section3 footer {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 8%;
+}
+
+.section3 footer p {
+    width: 100%;
+    text-align: center;
+}
+@media screen and (max-width:1350px){
+    .section3 {
+        height: 250vh;
+        width: 100vw;
+        background-color: var(--blackshade2);
+        color: white;
+    }
+    .section3 .list1 {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        justify-content: space-between;
+        gap: 1rem;
+        font-size: 15px;
+    }
+    .section3 .list2 {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height:auto;
+        /* margin: auto; */
+        justify-content: space-between;
+        gap: 1rem;
+        font-size: 15px;
+    }
+    .section3 .copyright {
+        height: 5%;
+        width: 100vw;
+    }
+    
+    .section3 .copyright p {
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+        margin: auto;
+    }
+    
+    .section3 .copyright {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--blackshade1);
+    }
+    
+    .section3 footer {
+        display: flex;
+        align-items: center;
+        background-color: black;
+        height: 5%;
+    }
+    
+    .section3 footer p {
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width:747px){
+    .section3 {
+        height: 250vh;
+        width: 100vw;
+        background-color: var(--blackshade2);
+        color: white;
+    }
+    .section3 .list1 {
+        display: flex;
+        width: 100%; 
+        justify-content: space-between;
+        font-size: 12px;
+    
+    }
+    
+    .section3 .list1 ul {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .section3 .list1 ul li {
+        margin: 5px 0;
+        list-style: none;
+    }
+    
+    .section3 .list1 ul li::before {
+        content: "\2022";
+        color: var(--boxcolor);
+        width: 2em;
+        margin-right: 1em;
+    }
+    
+    .section3 hr {
+        width: 80%;
+        margin: 2rem auto;
+    }
+    
+    .section3 .list2 {
+       
+        width: 80%;
+        height: 60%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 12px;
+        
+    }
+    
+    .section3 .list2 h1 {
+        font-weight: lighter;
+        margin: 3% 0;
+    }
+    
+    .section3 .list2 ul li {
+        margin: 4px 0;
+        list-style: none;
+    }
+    
+    .section3 .list2 ul li::before {
+        content: "\2022";
+        color: var(--boxcolor);
+        width: 2em;
+        margin-right: 1em;
+    }
+    
+    .section3 .list2 ul {
+        width: 90%;
+    }
+}
+@media screen and (max-width:1009px){
+    .section3 .list2 {
+       
+       
+        height: 60%;
+        
+    }
+}
